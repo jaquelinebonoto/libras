@@ -19,7 +19,7 @@ public class Ibm {
         BasicAuthenticator authenticator = new BasicAuthenticator("email", "senha");
         IamAuthenticator authenticatorUrl = new IamAuthenticator("chaveibm");
         SpeechToText speechToText = new SpeechToText(authenticatorUrl);
-        speechToText.setServiceUrl("https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/51bcd5b4-6e72-4120-80fe-829285b4a7a0");
+        speechToText.setServiceUrl("https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/iddasuainstancia");
 
         HttpConfigOptions configOptions = new HttpConfigOptions.Builder()
                 .disableSslVerification(true)
