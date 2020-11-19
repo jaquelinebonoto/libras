@@ -11,6 +11,12 @@ TCC Curso Sistemas para Internet - AudioToLibras
  - Consumo de API pública Vlibras 
  - Post com Volley
  
+### Como rodar este projeto
+Clonar repositório, abrir o projeto no Android Studio
+Construir o projeto com o gerenciador de dependências gradle.
+Criar serviço para IBM Watson Speech to Text em https://cloud.ibm.com/ e inserir as chaves e url da instância no arquivo IBM.java
+Rodar.
+ 
 ### Protótipo
 <img width="544" alt="prot" src="https://user-images.githubusercontent.com/39954954/99611983-6e583b80-29f3-11eb-81c4-a8f69e23d543.png">
 
